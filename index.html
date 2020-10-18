@@ -9,11 +9,11 @@
 </head>
 <body>
 
-<div id="vis"></div>
+<div id="symbol_map"></div>
 
 <script type="text/javascript">
-  var spec = "https://syuu0006.github.io/FIT3179/visualization.vl.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  var spec = "ne_110m.json";
+  vegaEmbed('#symbol_map', spec).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
